@@ -8,6 +8,4 @@ A RESTful API  for  Rental application with .Net Core
 | POST/api/Houses/Add | Add houses  |
 | POST/api/Houses/Delete | Delete houses |
 
-![alt text](https://i.ibb.co/LvnhjNT/Request.png)
-
-
+![image](https://user-images.githubusercontent.com/62144826/147393207-b74a71ed-e826-45c7-b20e-7a737d11db32.png)
