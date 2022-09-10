@@ -15,9 +15,9 @@ namespace DataAccess.EntityFramework
         {
             using (DatabaseContext context = new DatabaseContext())
             {
-                var result = from u in context.Houses                                                        
+                var result = from u in context.Houses
                              select new HouseDetailDto
-                             {                               
+                             {                                
                                  HousePrice=u.HousePrice,
                                  HouseLocation=u.HouseLocation,
                                  HouseSqft=u.HouseSqft,

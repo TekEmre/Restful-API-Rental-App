@@ -10,7 +10,8 @@ namespace Entities
 {
     public class House : IEntity
     {
-        [Key]      
+        [Key]
+        public Guid HouseId { get; set; }
         public string HousePrice { get; set; }
         public string HouseLocation { get; set; }
         public int HouseSqft { get; set; }
