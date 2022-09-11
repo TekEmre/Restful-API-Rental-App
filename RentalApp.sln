@@ -1,17 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31605.320
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{F0CEE2A8-4395-4AE7-B581-F7EE6F882664}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{F0CEE2A8-4395-4AE7-B581-F7EE6F882664}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{DF46CA12-282F-4259-A53E-33F6EE1784CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{DF46CA12-282F-4259-A53E-33F6EE1784CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{BEFAD1A6-ADD3-4153-97EC-065F77175C0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{BEFAD1A6-ADD3-4153-97EC-065F77175C0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{3654E476-CD13-4A0F-A116-3BF1303CEB7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{3654E476-CD13-4A0F-A116-3BF1303CEB7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{080E5006-BBF6-4B98-AABB-CA6955103D11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{080E5006-BBF6-4B98-AABB-CA6955103D11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirebaseAuth", "FirebaseAuth\FirebaseAuth.csproj", "{CFEDE9BF-8C6B-4096-A778-ECF3EE5B14C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{080E5006-BBF6-4B98-AABB-CA6955103D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{080E5006-BBF6-4B98-AABB-CA6955103D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{080E5006-BBF6-4B98-AABB-CA6955103D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFEDE9BF-8C6B-4096-A778-ECF3EE5B14C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFEDE9BF-8C6B-4096-A778-ECF3EE5B14C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFEDE9BF-8C6B-4096-A778-ECF3EE5B14C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFEDE9BF-8C6B-4096-A778-ECF3EE5B14C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
