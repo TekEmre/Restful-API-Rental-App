@@ -7,5 +7,8 @@ A RESTful API  for  Rental application with .Net Core
 | POST/api/Houses/Search | Search houses by location |
 | POST/api/Houses/Add | Add houses  |
 | POST/api/Houses/Delete | Delete houses |
+| POST/api/Login/Register | Register User via Firebase|
+| POST/api/Login/SignIn | SigIn User via Firebase |
 
-![image](https://user-images.githubusercontent.com/62144826/147393207-b74a71ed-e826-45c7-b20e-7a737d11db32.png)
+![Screenshot 2022-09-11 133530](https://user-images.githubusercontent.com/62144826/189522984-479c84a0-ecd9-44a8-8552-f6212822796a.png)
+
